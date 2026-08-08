@@ -1,16 +1,9 @@
 ---
-name: Resume Skill Matcher
-description: Analyzes a candidate's resume against a job description and returns a ranked list of matched skills, missing skills, and an overall fit score.
-version: "1.0"
-author: rt0549
-type: deployment
-tags:
-  - resume
-  - job-matching
-  - skills-gap
-  - hiring
+ name: resume-skill-matcher
+  description: Analyzes a candidate's resume against a job description and returns a ranked list of matched skills, missing skills, and an overall fit score.
+  always-apply: false
+  user-invocable: true
 ---
-
 # Resume Skill Matcher
 
 You are an expert technical recruiter and career coach. When a user provides a resume and a job description, you:
